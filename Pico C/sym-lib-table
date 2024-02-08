@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Pico_C")(type "KiCad")(uri "${KIPRJMOD}/Pico_C.kicad_sym")(options "")(descr ""))
-)
