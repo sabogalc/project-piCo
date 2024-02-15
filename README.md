@@ -4,7 +4,7 @@ This is a fully reverse-engineered Raspberry Pi Pico H made in KiCad version 7. 
 
 Originally, I just made a PCB that jumped the Micro-USB signals to a Type-C breakout board, but the tolerances were really tight, and it didn't look like much of a finished product. My boss gave me the idea of just remaking the whole board and adding a Type-C port to it, so that's what I did.
 
-I took the schematic from [here](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf#page=25) and the PCB design files from [here](https://datasheets.raspberrypi.com/pico/RPi-Pico-R3-PUBLIC-20200119.zip) (Warning, the second link will instantly download the schematic and board layout instad of previewing it). I also found a webpage that had the BOM for the Pico, which you can find [here](http://www.ntpcb.com/simple/?t175138.html).
+I took the schematic from [here](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf#page=26) and the PCB design files from [here](https://datasheets.raspberrypi.com/pico/RPi-Pico-R3-PUBLIC-20200119.zip) (Warning, the second link will instantly download the schematic and board layout instad of previewing it). I also found a webpage that had the BOM for the Pico, which you can find [here](https://archive.is/NHUY5).
 
 The mechanical layout provided by the Pi Foundation was extremely useful in creating my board dimensions. Since my footprint was made in KiCad, anybody should be able to implement it for their own projects.
 
@@ -21,11 +21,11 @@ Removing the 4 holes and adding space at the top for the Type-C port vastly impr
 
 The boot select switch, Schottky diode, and 12MHz crystal in my design differ from the ones in the original since I could not find them in stock, but they should be plug-and-play substitutes.
 
-For those of you without KiCad or that just want to take a quick look at the schematic, [here](https://pdfhost.io/v/nnVBIom54_project_piCo) is a link to a PDF copy of the schematic.
+For those of you without KiCad or that just want to take a quick look at the schematic, [here](https://github.com/sabogalc/project-piCo/blob/main/Pico%20C/RPI-PICO-R3a-PUBLIC.pdf) is a link to a PDF copy of the schematic.
 
 Below is a 3D render of my board. This version 3 board is much better than the original, but it is still not quite up to par with the real Pico. Namely, my board does not use as many power planes as the original version (I have one plane for 3.3V and another for GND). Also my USB D+ and D- traces aren't signal paired, but I honestly think they're close enough to where there will be no issues in real-world use cases.
 
-![Screenshot 2024-02-08 022358](https://github.com/sabogalc/project-piCo/assets/53708281/dbabecf5-8f2a-4f78-9f02-148aee7604ff)
+![image](https://github.com/sabogalc/project-piCo/assets/53708281/b39cf4a2-793b-48b0-bca8-530b2eec7610)
 
 Compared to [version 2](https://archive.is/ivA9B), version 3 has improvements in silkscreen labeling of the pins, the LED, and the USB connector. It also has a 3.3V copper pour on the top layer of the board, which improves the 3.3V routing tremendously. Further improvements could be made in having more power plane pours, but this version should be relatively solid.
 
