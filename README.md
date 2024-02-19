@@ -25,7 +25,7 @@ For those of you without KiCad or that just want to take a quick look at the sch
 
 Below is a 3D render of my board. This version 3 board is much better than the original, but it is still not quite up to par with the real Pico. Namely, my board does not use as many power planes as the original version (I have one plane for 3.3V and another for GND). Also my USB D+ and D- traces aren't signal paired, but I honestly think they're close enough to where there will be no issues in real-world use cases.
 
-![image](https://github.com/sabogalc/project-piCo/assets/53708281/7641c435-64c8-415b-9118-fda2bd11179a)
+![image](https://github.com/sabogalc/project-piCo/assets/53708281/83ae00a0-1e6d-4df9-a7f2-fddbb797d461)
 
 Compared to [version 2](https://archive.is/ivA9B), version 3 has improvements in silkscreen labeling of the pins, the LED, and the USB connector. It also has a 3.3V copper pour on the top layer of the board, which improves the 3.3V routing tremendously. Further improvements could be made in having more power plane pours, but this version should be relatively solid.
 
