@@ -1,4 +1,4 @@
-22650082771252895
+22653502254724368
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -81669,6 +81669,13 @@ CON_PICO_40W_VER_C
 40
 40
 Pico_C
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Pico_C
 DIOM3616X98N
 
 
@@ -81683,12 +81690,19 @@ JST_SM03B-SRSS-TB_LF__SN_
 5
 5
 Pico_C
-QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm
+QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias
 QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-61
+65
 57
+Pico_C
+R_0201_0603Metric
+Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
 Pico_C
 SON50P250X250X80-11N
 
