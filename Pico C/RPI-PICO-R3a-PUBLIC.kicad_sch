@@ -1713,11 +1713,11 @@
         )
       )
     )
-    (symbol "power:VSS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
+    (symbol "power:VS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at -5.08 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "VSS" (at 0 3.81 0)
+      (property "Value" "VS" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -1729,10 +1729,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"VSS\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"VS\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "VSS_0_1"
+      (symbol "VS_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -1752,9 +1752,9 @@
           (fill (type outline))
         )
       )
-      (symbol "VSS_1_1"
+      (symbol "VS_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VSS" (effects (font (size 1.27 1.27))))
+          (name "VS" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3250,31 +3250,6 @@
     )
   )
 
-  (symbol (lib_id "power:VSS") (at 107.315 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2970c4f1-959a-49e6-a275-50ddc470ded2)
-    (property "Reference" "#PWR09" (at 107.315 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VSS" (at 107.315 27.178 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 107.315 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 107.315 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bf141b81-45f8-4e0f-a875-0b7777bc902b))
-    (instances
-      (project "RPI-PICO-R3a-PUBLIC"
-        (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
-          (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 114.3 21.59 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fd50aa6-5fc5-420d-ac0a-417ad4272922)
@@ -3593,6 +3568,31 @@
     )
   )
 
+  (symbol (lib_id "power:VS") (at 120.65 142.24 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3de67832-c5af-41ef-8b12-b12791160758)
+    (property "Reference" "#PWR024" (at 115.57 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VS" (at 120.65 137.795 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 120.65 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 120.65 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9e9b11a8-264d-4e18-9e16-c5a3001065dc))
+    (instances
+      (project "RPI-PICO-R3a-PUBLIC"
+        (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Pico_C:CON_PICO_40W_VER_C") (at 229.235 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48df373b-f205-4fb5-92ac-2f54d6e89407)
@@ -3731,31 +3731,6 @@
       (project "RPI-PICO-R3a-PUBLIC"
         (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
           (reference "#PWR029") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VSS") (at 262.255 29.845 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 53ca4daf-cfba-4905-92f0-4587602649cc)
-    (property "Reference" "#PWR024" (at 262.255 33.655 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VSS" (at 262.255 25.273 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 262.255 29.845 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 262.255 29.845 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ed11cf27-4a41-45a6-bf52-d21372674750))
-    (instances
-      (project "RPI-PICO-R3a-PUBLIC"
-        (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
-          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4117,6 +4092,31 @@
     )
   )
 
+  (symbol (lib_id "power:VS") (at 107.315 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 85e3f3ac-0a21-4d04-bebb-2fe25233da79)
+    (property "Reference" "#PWR027" (at 102.235 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VS" (at 107.315 27.305 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 107.315 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 107.315 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8882af02-a09f-4029-aead-f12d2eb4a3a4))
+    (instances
+      (project "RPI-PICO-R3a-PUBLIC"
+        (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 254 112.395 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8614e8f0-9216-4639-95b1-3303a2e5ef2f)
@@ -4267,31 +4267,6 @@
       (project "RPI-PICO-R3a-PUBLIC"
         (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
           (reference "#PWR022") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VSS") (at 120.65 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bcead5d7-5d7d-4446-b693-e5db408d765c)
-    (property "Reference" "#PWR027" (at 120.65 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VSS" (at 120.65 137.668 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 120.65 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 120.65 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7c14dc03-bc56-4275-aa11-633949cbcd18))
-    (instances
-      (project "RPI-PICO-R3a-PUBLIC"
-        (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
-          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4694,6 +4669,31 @@
       (project "RPI-PICO-R3a-PUBLIC"
         (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
           (reference "IC1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VS") (at 262.255 29.845 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f0ee0686-93e2-4e00-87b7-e39eac073307)
+    (property "Reference" "#PWR047" (at 257.175 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VS" (at 262.255 25.4 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 262.255 29.845 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 262.255 29.845 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 81b28a0a-f624-4bdd-a2b9-fdbb9400b40b))
+    (instances
+      (project "RPI-PICO-R3a-PUBLIC"
+        (path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+          (reference "#PWR047") (unit 1)
         )
       )
     )
