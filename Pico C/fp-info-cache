@@ -1,4 +1,4 @@
-22653502254724368
+22656920451826763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -81655,6 +81655,20 @@ TO-264-5 Vertical RM 3.81mm
 5
 5
 Pico_C
+CON_PICO_1-20
+
+
+0
+20
+20
+Pico_C
+CON_PICO_21-40
+
+
+0
+20
+20
+Pico_C
 CON_PICO_40W
 
 
@@ -81694,7 +81708,7 @@ QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias
 QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-65
+61
 57
 Pico_C
 R_0201_0603Metric
