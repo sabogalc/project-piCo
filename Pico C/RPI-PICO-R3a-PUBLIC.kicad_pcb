@@ -138,7 +138,7 @@
 	(net 11 "QSPI_SD2")
 	(net 12 "/3V3_EN")
 	(net 13 "Net-(J3-CC1)")
-	(net 14 "unconnected-(IC1-EP-Pad9)")
+	(net 14 "unconnected-(U3-EP-Pad9)")
 	(net 15 "Net-(Q1-D)")
 	(net 16 "+1V1")
 	(net 17 "QSPI_SD0")
@@ -1235,7 +1235,7 @@
 		(at 152.042347 99.62845 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 0 -1.05 0)
 			(layer "F.Fab")
 			(uuid "f11e3791-491c-4923-a181-0bbdb8d65a9f")
@@ -5467,7 +5467,7 @@
 		(at 152.042347 100.352926 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 0 -1.05 0)
 			(layer "F.Fab")
 			(uuid "4ec120c3-4d7f-4288-adba-590447d5d785")
@@ -9108,7 +9108,7 @@
 		(layer "F.Cu")
 		(uuid "f839b6fb-b001-4999-b08d-5d6f3ff6ea6b")
 		(at 135.625 97.525 -90)
-		(property "Reference" "Y1"
+		(property "Reference" "X1"
 			(at 0.03 -2.1 90)
 			(layer "F.Fab")
 			(uuid "65adec31-16c3-4081-b060-a5fde7f6bf1d")
@@ -9168,7 +9168,7 @@
 				)
 			)
 		)
-		(path "/31b1cccd-d298-42f3-b2b0-56ed0d3d9091")
+		(path "/b781b0e2-f3bf-4962-a297-d9cca2b4e7f7")
 		(sheetname "Root")
 		(sheetfile "RPI-PICO-R3a-PUBLIC.kicad_sch")
 		(attr smd)
@@ -9562,7 +9562,7 @@
 		(uuid "ff52bdf2-52e1-4979-9ad5-a3fcdea60e13")
 		(at 156.6 97)
 		(descr "<b>USON 2x3x0.6-mm</b><br>")
-		(property "Reference" "IC1"
+		(property "Reference" "U3"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8134e32d-c2ed-4aa4-ac0f-fd2d28f57a1c")
@@ -9620,7 +9620,7 @@
 				)
 			)
 		)
-		(path "/ee10bb3d-3834-4eea-b00e-631e79246501")
+		(path "/5a2e9d4c-a600-4ece-b363-8b1a3e0ac0eb")
 		(sheetname "Root")
 		(sheetfile "RPI-PICO-R3a-PUBLIC.kicad_sch")
 		(clearance 0.17)
@@ -9830,7 +9830,7 @@
 			(at 0 0 90)
 			(size 1.65 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 14 "unconnected-(IC1-EP-Pad9)")
+			(net 14 "unconnected-(U3-EP-Pad9)")
 			(pinfunction "EP")
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)

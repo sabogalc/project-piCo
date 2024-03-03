@@ -2872,7 +2872,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
+			(property "Reference" "X"
 				(at -12.7168 7.6301 0)
 				(effects
 					(font
@@ -4176,7 +4176,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "U"
 				(at 52.07 7.62 0)
 				(effects
 					(font
@@ -8929,80 +8929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Pico_C:ECS-120-8-33-JGN-TR")
-		(at 207.645 149.225 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31b1cccd-d298-42f3-b2b0-56ed0d3d9091")
-		(property "Reference" "Y1"
-			(at 207.645 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-120-8-33-JGN-TR"
-			(at 207.645 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Pico_C:XTAL_ECS-120-8-33-JGN-TR"
-			(at 207.645 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
-			(at 207.645 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.645 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8071e5cd-3dac-4475-a474-e320bb14d9de")
-		)
-		(pin "3"
-			(uuid "7762b5a7-3efc-4288-b395-7d4b2c476665")
-		)
-		(pin "1"
-			(uuid "cbe28599-24b3-4830-ac05-51050a37efe7")
-		)
-		(pin "4"
-			(uuid "b317e283-25fa-468f-b9a1-4cd78f89dd87")
-		)
-		(instances
-			(project "RPI-PICO-R3a-PUBLIC"
-				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 77.47 50.165 180)
 		(unit 1)
@@ -10068,6 +9994,96 @@
 			(project "RPI-PICO-R3a-PUBLIC"
 				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pico_C:W25Q16JVUXIQ")
+		(at 121.285 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a2e9d4c-a600-4ece-b363-8b1a3e0ac0eb")
+		(property "Reference" "U3"
+			(at 149.225 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q16JVUXIQ"
+			(at 149.225 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pico_C:SON50P300X200X60-9N"
+			(at 121.285 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q16jv%20spi%20revh%2004082019%20plus.pdf"
+			(at 121.285 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "4d0af5b4-353a-42fe-8903-3027810d279d")
+		)
+		(pin "6"
+			(uuid "73cbdecc-6c93-40cc-b3de-f953a422628f")
+		)
+		(pin "3"
+			(uuid "7619c264-e3b2-40a3-ad56-7f4a1634acde")
+		)
+		(pin "4"
+			(uuid "91c4bf80-7e2d-4814-8636-658b80e08ed6")
+		)
+		(pin "1"
+			(uuid "e7b07eb8-6800-4be3-944d-bfbdb60198bc")
+		)
+		(pin "2"
+			(uuid "a199b4de-fd4d-4352-8e1f-b0c5288de15e")
+		)
+		(pin "5"
+			(uuid "ed55f3dd-315a-4cf4-9351-378584411946")
+		)
+		(pin "7"
+			(uuid "d410fcae-8dc9-40fa-8bc6-d789370651f9")
+		)
+		(pin "8"
+			(uuid "90eb2ce4-ab26-4d04-a110-754dd2c8201b")
+		)
+		(instances
+			(project "RPI-PICO-R3a-PUBLIC"
+				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11352,6 +11368,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Pico_C:ECS-120-8-33-JGN-TR")
+		(at 207.645 149.225 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b781b0e2-f3bf-4962-a297-d9cca2b4e7f7")
+		(property "Reference" "X1"
+			(at 207.645 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-120-8-33-JGN-TR"
+			(at 207.645 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECS-120-8-33-JGN-TR:XTAL_ECS-120-8-33-JGN-TR"
+			(at 207.645 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
+			(at 207.645 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.645 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d43f5450-a07d-46b0-93bc-7b560717f38d")
+		)
+		(pin "2"
+			(uuid "80d2e710-4de3-4d58-841c-74b218b37de6")
+		)
+		(pin "1"
+			(uuid "bfaa4d7f-5304-46a3-818c-6308564d4b47")
+		)
+		(pin "3"
+			(uuid "562639dc-8c29-484a-9c7f-939996f9fbec")
+		)
+		(instances
+			(project "RPI-PICO-R3a-PUBLIC"
+				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pico_C:SM03B-SRSS-TB_LF__SN_")
 		(at 269.875 135.89 0)
 		(unit 1)
@@ -12480,96 +12570,6 @@
 			(project "RPI-PICO-R3a-PUBLIC"
 				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pico_C:W25Q16JVUXIQ")
-		(at 121.285 109.855 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee10bb3d-3834-4eea-b00e-631e79246501")
-		(property "Reference" "IC1"
-			(at 149.225 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W25Q16JVUXIQ"
-			(at 149.225 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Pico_C:SON50P300X200X60-9N"
-			(at 121.285 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q16jv%20spi%20revh%2004082019%20plus.pdf"
-			(at 121.285 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.285 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "5667adec-c5ed-4c2c-bcd4-19dcb5af3379")
-		)
-		(pin "8"
-			(uuid "1df2b14c-4ff8-4753-aa39-0112bc1b0266")
-		)
-		(pin "4"
-			(uuid "1d88a447-2f35-487c-87b4-48c8618a6227")
-		)
-		(pin "7"
-			(uuid "09f66d7e-cd7e-4c26-9eb4-41a3d96795ce")
-		)
-		(pin "2"
-			(uuid "3a73c578-fc7a-4889-8c32-ee258bbf0bc1")
-		)
-		(pin "6"
-			(uuid "6ccef829-ba9e-4729-ae7a-0aef7f0417c9")
-		)
-		(pin "1"
-			(uuid "cb94749f-3951-4fad-bb60-6a2c7694bace")
-		)
-		(pin "3"
-			(uuid "c2905845-6bb4-4ab5-94ef-2b472b5f7fa8")
-		)
-		(pin "5"
-			(uuid "fedc553c-0e3d-455d-895b-af51eaf45a78")
-		)
-		(instances
-			(project "RPI-PICO-R3a-PUBLIC"
-				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
