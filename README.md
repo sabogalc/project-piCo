@@ -15,7 +15,7 @@ The mechanical layout provided by the Pi Foundation was extremely useful in crea
 Version 1 of this board had many issues. You can see that version by either viewing the commit history or by viewing the archived version [here](https://archive.is/PpIPD). One of the biggest issues was the size constraint of adding a Type-C port to the original footprint.
 
 When I published this project, many people let me know that Type-C Pico clones already exist. As such, I modeled my redesign after one of these clones, and that was the purple board from [this AliExpress listing](https://www.aliexpress.com/item/3256805444428998.html).
-![image](https://github.com/sabogalc/project-piCo/assets/53708281/160bd96f-20e4-46b0-b705-9c5adce5a875)
+![300170972-160bd96f-20e4-46b0-b705-9c5adce5a875](https://github.com/sabogalc/project-piCo/assets/53708281/1c073767-9edb-4e5f-8591-c8f2ccd30e73)
 
 Removing the 4 holes and adding space at the top for the Type-C port vastly improved my ability to design and route this board, so the "CON_PICO_40W_VER_C" used in this revision is a copy of the purple clone board. Sometimes you just need to [reverse-engineer the reverse-engineers](https://youtu.be/FVEQJNRmfDQ?t=431).
 
