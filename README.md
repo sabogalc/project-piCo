@@ -34,7 +34,7 @@ As before, I would happily accept pull requests to improve this design. My main 
 - Finnicky routing needed in some areas (e.g. frequent jumps between board layers to avoid overlaps)
 - Optimizing of component placement to be able to have more pins with silkscreen numbers next to them
 
-I would also be interested in replacing R11 with a LM4040 shunt voltage reference. For now, I wanted a board that had all of the same components as a real Pico so that I could just swap them over, but adding the voltage reference would help make my design an improvement over the original.
+I would also be interested in replacing R9 with a LM4040 shunt voltage reference. For now, I wanted a board that had all of the same components as a real Pico so that I could just swap them over, but adding the voltage reference would help make my design an improvement over the original.
 
 Note - I have now included a file called `RPI-PICO-R3a-PUBLIC - Official.kicad_pcb`. This is as close to the original Cadence Allegro design file that I could get imported into KiCad. I first converted the Allegro board into an Altium one, and then I converted the Altium board into KiCad.
 ![image](https://github.com/sabogalc/project-piCo/assets/53708281/2ef8d706-aa4e-4265-992c-f2f538ea8131)
