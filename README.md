@@ -12,7 +12,7 @@ The mechanical layout provided by the Pi Foundation was extremely useful in crea
 
 ![image](https://github.com/sabogalc/project-piCo/assets/53708281/e2d75217-aeb5-4e7a-b6b1-d67d2e49ab80)
 
-Version 1 of this board had many issues. You can see that version by [here](https://github.com/sabogalc/project-piCo/tree/4ffbc08c13815f0195cdc85224667cf2c5e13563). One of the biggest issues was the size constraint of adding a Type-C port to the original footprint.
+Version 1 of this board had many issues. You can see that version [here](https://github.com/sabogalc/project-piCo/tree/4ffbc08c13815f0195cdc85224667cf2c5e13563). One of the biggest issues was the size constraint of adding a Type-C port to the original footprint.
 
 When I published this project, many people let me know that Type-C Pico clones already exist. As such, I modeled my redesign after one of these clones, and that was the purple board from [this AliExpress listing](https://www.aliexpress.com/item/3256805444428998.html).
 ![300170972-160bd96f-20e4-46b0-b705-9c5adce5a875](https://github.com/sabogalc/project-piCo/assets/53708281/1c073767-9edb-4e5f-8591-c8f2ccd30e73)
