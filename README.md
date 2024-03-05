@@ -12,7 +12,7 @@ The mechanical layout provided by the Pi Foundation was extremely useful in crea
 
 ![image](https://github.com/sabogalc/project-piCo/assets/53708281/e2d75217-aeb5-4e7a-b6b1-d67d2e49ab80)
 
-Version 1 of this board had many issues. You can see that version by either viewing the commit history or by viewing the archived version [here](https://archive.is/PpIPD). One of the biggest issues was the size constraint of adding a Type-C port to the original footprint.
+Version 1 of this board had many issues. You can see that version by [here](https://github.com/sabogalc/project-piCo/tree/4ffbc08c13815f0195cdc85224667cf2c5e13563). One of the biggest issues was the size constraint of adding a Type-C port to the original footprint.
 
 When I published this project, many people let me know that Type-C Pico clones already exist. As such, I modeled my redesign after one of these clones, and that was the purple board from [this AliExpress listing](https://www.aliexpress.com/item/3256805444428998.html).
 ![300170972-160bd96f-20e4-46b0-b705-9c5adce5a875](https://github.com/sabogalc/project-piCo/assets/53708281/1c073767-9edb-4e5f-8591-c8f2ccd30e73)
@@ -27,7 +27,7 @@ Below is a 3D render of my board. This version 3 board is much better than the o
 
 ![image](https://github.com/sabogalc/project-piCo/assets/53708281/e1c1a218-cc8b-47e4-8b84-a7cff7ebbea9)
 
-Compared to [version 2](https://archive.is/ivA9B), version 3 has improvements in silkscreen labeling of the pins, the LED, and the USB connector. It also has a 3.3V copper pour on the top layer of the board, which improves the 3.3V routing tremendously. Further improvements could be made in having more power plane pours, but this version should be relatively solid.
+Compared to [version 2](https://github.com/sabogalc/project-piCo/tree/e2333728981e60bb3f34c05a658cf739d1d45163), version 3 has improvements in silkscreen labeling of the pins, the LED, and the USB connector. It also has a 3.3V copper pour on the top layer of the board, which improves the 3.3V routing tremendously. Further improvements could be made in having more power plane pours, but this version should be relatively solid.
 
 As before, I would happily accept pull requests to improve this design. My main grievances with this board are as follows:
 - Better routing for the power rails (e.g. more pours rather than tracks)
