@@ -9111,7 +9111,7 @@
 		(property "Reference" "X1"
 			(at 0.03 -2.1 90)
 			(layer "F.Fab")
-			(uuid "65adec31-16c3-4081-b060-a5fde7f6bf1d")
+			(uuid "9e048cec-ee54-4826-aa16-42053466cec6")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -9123,7 +9123,7 @@
 		(property "Value" "ECS-120-8-33-JGN-TR"
 			(at -0.01 2.2 90)
 			(layer "F.Fab")
-			(uuid "70560aea-a0b2-47ed-8ad3-2496ca9978d4")
+			(uuid "e33d0e65-4250-44fc-b4ab-4a78fd6d82ef")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -9137,7 +9137,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e297ae8-b36f-4ee6-9011-23d909ea05e2")
+			(uuid "1b8bba39-eda9-49d2-a7a6-475b4dee3a9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,7 +9149,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc0e0033-841c-421b-884b-c3f4e6f4fc6e")
+			(uuid "9901f507-d6ef-44c3-b262-0567e07750bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +9161,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e92b7bb-3537-42fd-94e4-72f607904ba5")
+			(uuid "22baf0c8-b4fa-4f8c-bf1c-8a63df91a1bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,8 +9169,6 @@
 			)
 		)
 		(path "/b781b0e2-f3bf-4962-a297-d9cca2b4e7f7")
-		(sheetname "Root")
-		(sheetfile "RPI-PICO-R3a-PUBLIC.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.27 1.25)
@@ -9180,7 +9178,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca9023b1-c3eb-4da4-acb2-2556eaf07efd")
+			(uuid "c727eca6-a3de-4fc3-a9c7-8ed52e14251f")
 		)
 		(fp_line
 			(start 0.27 -1.25)
@@ -9190,7 +9188,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8ca50c8a-037c-4740-8d02-94225ce7a316")
+			(uuid "698ad978-aa82-46fc-824c-71f750545cb2")
 		)
 		(fp_circle
 			(center -2.11 1.78)
@@ -9201,7 +9199,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "fc4e66c9-89d4-405e-979c-267dd51b8cd3")
+			(uuid "46ac73d8-fe9f-4e4a-84ba-35aea1ee75b5")
 		)
 		(fp_line
 			(start -2.05 1.7)
@@ -9211,7 +9209,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "be538b14-cf84-4511-a808-6b0e3c14bf05")
+			(uuid "3ec43694-4c78-48d1-9cc5-80da3a525761")
 		)
 		(fp_line
 			(start 2.05 1.7)
@@ -9221,7 +9219,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8b098fb1-c1c1-4145-9850-293574533258")
+			(uuid "2936c035-1eae-4618-9e8c-78114a9a5b22")
 		)
 		(fp_line
 			(start -2.05 -1.7)
@@ -9231,7 +9229,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8a55720d-f67d-4074-9aac-ee87950a82f8")
+			(uuid "cc791550-ad94-40dd-827c-9db9eba31bec")
 		)
 		(fp_line
 			(start 2.05 -1.7)
@@ -9241,7 +9239,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ff46fd61-9a9a-4fa2-b9cd-6972aa19cf4a")
+			(uuid "dd3c7d5e-3a14-45e9-977f-f3f7701108f3")
 		)
 		(fp_line
 			(start -1.6 1.25)
@@ -9251,7 +9249,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ef2f01e5-1e72-4513-ad3b-a82115d41334")
+			(uuid "d7ae9cb2-1df4-463e-b01e-2b552ccd3ce3")
 		)
 		(fp_line
 			(start 1.6 1.25)
@@ -9261,7 +9259,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "244eb135-e9dd-4635-9bee-930bac4498b1")
+			(uuid "4d8de4ed-6559-4727-bc33-5b4817a9cac3")
 		)
 		(fp_line
 			(start -1.6 -1.25)
@@ -9271,7 +9269,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "04d35836-9b97-4767-b048-7b952c79be2c")
+			(uuid "b097fec6-f15b-414b-8076-5681d70842f3")
 		)
 		(fp_line
 			(start 1.6 -1.25)
@@ -9281,7 +9279,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e1ed1a6b-704d-4c0e-ae81-46f4424e44fa")
+			(uuid "16525688-bdab-4a60-a741-74ddf48d2bb2")
 		)
 		(fp_circle
 			(center -2.11 1.78)
@@ -9292,7 +9290,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "3289d451-945b-4b12-832e-87b2031f163d")
+			(uuid "844bda91-0902-4917-85c4-cdf3fae1efbc")
 		)
 		(pad "1" smd rect
 			(at -1.15 0.9 270)
@@ -9302,7 +9300,7 @@
 			(pinfunction "IN/OUT")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "24185b49-d90e-4dac-a507-4477c86f3e7d")
+			(uuid "741624fb-952d-4e64-8803-7316130c9c03")
 		)
 		(pad "2" smd rect
 			(at 1.15 0.9 270)
@@ -9312,7 +9310,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "26502bf0-803d-47be-8709-ac964b5bd40e")
+			(uuid "edfa9593-55a3-4454-a8d4-cd19dbe651b1")
 		)
 		(pad "3" smd rect
 			(at 1.15 -0.9 270)
@@ -9322,7 +9320,7 @@
 			(pinfunction "OUT/IN")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "968babea-5d33-4935-89dc-e7c3cabd2f99")
+			(uuid "c3a5c7fd-8e45-4eb7-b774-d8a322db75b8")
 		)
 		(pad "4" smd rect
 			(at -1.15 -0.9 270)
@@ -9332,7 +9330,7 @@
 			(pinfunction "GND__1")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "413ced90-6d88-4786-9abb-15f0940b7f71")
+			(uuid "349cc1dc-cd5c-4afa-9158-1789e0135d8c")
 		)
 		(model "${KIPRJMOD}/STEP files/ECS-120-8-33-JGN-TR.step"
 			(offset

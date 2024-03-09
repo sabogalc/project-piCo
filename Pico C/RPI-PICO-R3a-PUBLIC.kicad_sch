@@ -11392,7 +11392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS-120-8-33-JGN-TR:XTAL_ECS-120-8-33-JGN-TR"
+		(property "Footprint" "Pico_C:XTAL_ECS-120-8-33-JGN-TR"
 			(at 207.645 149.225 0)
 			(effects
 				(font
