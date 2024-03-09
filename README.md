@@ -1,6 +1,6 @@
 # project-piCo
 
-This is a fully reverse-engineered Raspberry Pi Pico H made in KiCad version 7. The Raspberry Pi Foundation publishes lots of information on this board, including the full schematics and board layout files. However, they're made in Cadence Allegro, and that costs a crisp $1,500/month that I do not have.
+This is a fully reverse-engineered Raspberry Pi Pico H made in KiCad version 8. The Raspberry Pi Foundation publishes lots of information on this board, including the full schematics and board layout files. However, they're made in Cadence Allegro, and that costs a crisp $1,500/month that I do not have.
 
 Originally, I just made a PCB that jumped the Micro-USB signals to a Type-C breakout board, but the tolerances were really tight, and it didn't look like much of a finished product. My boss gave me the idea of just remaking the whole board and adding a Type-C port to it, so that's what I did.
 
