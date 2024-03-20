@@ -2235,28 +2235,6 @@ PART_NAME J3
    PART_ORIGIN 0.000 0.000
    PART_MOUNT SMD
 
-   PIN_ID J3-
-      PIN_NUMBER 
-      PIN_NAME 
-      PIN_SIDE T
-      PIN_ORIGIN 6813.0 299.0
-      PIN_RADIUS 15.0
-      PIN_NET 
-      PIN_TYPE 2
-      PIN_COMMENT
-   PIN_END
-
-   PIN_ID J3-
-      PIN_NUMBER 
-      PIN_NAME 
-      PIN_SIDE T
-      PIN_ORIGIN 6813.0 527.0
-      PIN_RADIUS 15.0
-      PIN_NET 
-      PIN_TYPE 2
-      PIN_COMMENT
-   PIN_END
-
    PIN_ID J3-A1
       PIN_NUMBER A1
       PIN_NAME A1
@@ -2473,6 +2451,28 @@ PART_NAME J3
       PIN_ORIGIN 6958.0 583.0
       PIN_RADIUS 24.0
       PIN_NET GND
+      PIN_TYPE 2
+      PIN_COMMENT
+   PIN_END
+
+   PIN_ID J3-
+      PIN_NUMBER 
+      PIN_NAME 
+      PIN_SIDE T
+      PIN_ORIGIN 6813.0 299.0
+      PIN_RADIUS 15.0
+      PIN_NET 
+      PIN_TYPE 2
+      PIN_COMMENT
+   PIN_END
+
+   PIN_ID J3-
+      PIN_NUMBER 
+      PIN_NAME 
+      PIN_SIDE T
+      PIN_ORIGIN 6813.0 527.0
+      PIN_RADIUS 15.0
+      PIN_NET 
       PIN_TYPE 2
       PIN_COMMENT
    PIN_END
