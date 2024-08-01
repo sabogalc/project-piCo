@@ -12,4 +12,4 @@ For detailed information on each board’s design, please refer to their specifi
 ![image](https://github.com/user-attachments/assets/3d2943af-c4f5-4dba-b2e3-bb380a24210b)
 
 > The USB-C version of the Pico WH board, a much closer recreation of the original board.
-![image](https://github.com/user-attachments/assets/429d3ffc-f5d3-4d9b-a8b5-73fd3a04eb2a)
+![image](https://github.com/user-attachments/assets/d4c077f3-50ab-40ce-b2ea-31a2d3b9cd26)

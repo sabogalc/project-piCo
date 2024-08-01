@@ -7,7 +7,7 @@ After a few months of making projects with the Pico, I found myself wanting to u
 - **Schematic:** [Raspberry Pi Pico W Schematic](https://wiki.amperka.ru/_media/products:raspberry-pi-pico-w:raspberry-pi-pico-w-schematic.pdf)
 - **PCB Design Files:** [RPi PicoW Files](https://datasheets.raspberrypi.com/picow/RPi-PicoW-PUBLIC-20220607.zip) (Note: This link will download files directly.)
 
-This time, rather than making my own board layout, I tried to follow the factory layout as closely as possible. Similarly to the [Official Files](https://github.com/sabogalc/project-piCo/tree/main/KiCad%20Projects/Pico%20C#Official%20Files) section of the original Type-C Pico, I converted the factory Allegro files into a KiCad file (with an Altium conversion in between the two).
+This time, rather than making my own board layout, I tried to follow the factory layout as closely as possible. Similarly to the [Official Files](https://github.com/sabogalc/project-piCo/tree/main/KiCad%20Projects/Pico%20C#official-files) section of the original Type-C Pico, I converted the factory Allegro files into a KiCad file (with an Altium conversion in between the two).
 
 ![Converted Design Close-Up](https://github.com/user-attachments/assets/dbfd9da0-687e-4050-bb36-6c9c7e21ae76)
 
@@ -41,7 +41,7 @@ As with the original project piCo, the boot select switch, Schottky diode, and 1
 
 ### PDF Schematic
 
-A PDF copy of the schematic is available [here](https://github.com/sabogalc/project-piCo/blob/main/KiCad%20CProjects/Pico%20WH%20-%20No%20License/Pico%20WH.pdf).
+A PDF copy of the schematic is available [here](https://github.com/sabogalc/project-piCo/blob/main/KiCad%20Projects/Pico%20WH%20-%20No%20License/Pico%20WH.pdf).
 
 ### Board Photos
 

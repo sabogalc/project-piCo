@@ -36,7 +36,7 @@ I could not find the original boot select switch, Schottky diode, or 12MHz cryst
 
 ### PDF Schematic
 
-For those of you without KiCad or that just want to take a quick look at the schematic, a [PDF version](https://github.com/sabogalc/project-piCo/blob/main/KiCad%20CProjects/Pico%20C/RPI-PICO-R3a-PUBLIC.pdf) is available.
+For those of you without KiCad or that just want to take a quick look at the schematic, a [PDF version](https://github.com/sabogalc/project-piCo/blob/main/KiCad%20Projects/Pico%20C/RPI-PICO-R3a-PUBLIC.pdf) is available.
 
 ### Version 3 Improvements
 
