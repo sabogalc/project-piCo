@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Pico WH")(type "KiCad")(uri "${KIPRJMOD}/Pico WH.pretty")(options "")(descr ""))
+)

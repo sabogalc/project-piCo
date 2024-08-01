@@ -1,41 +1,15 @@
-# project-piCo
+# project piCo
 
-This is a fully reverse-engineered Raspberry Pi Pico H made in KiCad version 8. The Raspberry Pi Foundation publishes lots of information on this board, including the full schematics and board layout files. However, they're made in Cadence Allegro, and that costs a crisp $1,500/month that I do not have.
+This repository contains KiCad project files for reverse-engineered Raspberry Pi Pico boards, including both the standard Pico H and the WiFi version, the Pico WH. The primary goal of this project is two-fold:
 
-Originally, I just made a PCB that jumped the Micro-USB signals to a Type-C breakout board, but the tolerances were really tight, and it didn't look like much of a finished product. My boss gave me the idea of just remaking the whole board and adding a Type-C port to it, so that's what I did.
+1. USB-C Upgrade: Although all Pico boards were released in or after 2021, they all use Micro-USB. The initial aim was to update these boards to include USB-C, making them more compatible with modern standards.
 
-I took the schematic from [here](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf#page=26) and the PCB design files from [here](https://datasheets.raspberrypi.com/pico/RPi-Pico-R3-PUBLIC-20200119.zip) (Warning, the second link will instantly download the schematic and board layout instad of previewing it). I also found a webpage that had the BOM for the Pico, which you can find [here](https://archive.is/NHUY5).
+2. Accessibility of Design Files: During this process, I discovered that the original board designs are created in Cadence Allegro, a format that is less accessible due to its encrypted file structure and the expensive software required. This project not only adds USB-C support but also aims to make the design files as free and open as possible.
 
-The mechanical layout provided by the Pi Foundation was extremely useful in creating my board dimensions. Since my footprint was made in KiCad, anybody should be able to implement it for their own projects.
+For detailed information on each board’s design, please refer to their specific folders within the `KiCad Projects` directory. Boardview files for all boards, including the original Pico H, are provided to allow for easy troubleshooting. The designs in this repository are freely available for use without any license restrictions or attribution requirements.
 
-> Note - this project contains a footprint called "CON_PICO_40W" that is an exact replica of the original footprint, but I used a modified version for my board called "CON_PICO_40W_VER_C". I will highlight the differences below.
+> The USB-C version of the Pico H board. The layout for this board differs slightly from the original.
+![image](https://github.com/user-attachments/assets/3d2943af-c4f5-4dba-b2e3-bb380a24210b)
 
-![image](https://github.com/sabogalc/project-piCo/assets/53708281/e2d75217-aeb5-4e7a-b6b1-d67d2e49ab80)
-
-Version 1 of this board had many issues. You can see that version [here](https://github.com/sabogalc/project-piCo/tree/4ffbc08c13815f0195cdc85224667cf2c5e13563). One of the biggest issues was the size constraint of adding a Type-C port to the original footprint.
-
-When I published this project, many people let me know that Type-C Pico clones already exist. As such, I modeled my redesign after one of these clones, and that was the purple board from [this AliExpress listing](https://www.aliexpress.com/item/3256805444428998.html).
-![300170972-160bd96f-20e4-46b0-b705-9c5adce5a875](https://github.com/sabogalc/project-piCo/assets/53708281/1c073767-9edb-4e5f-8591-c8f2ccd30e73)
-
-Removing the 4 holes and adding space at the top for the Type-C port vastly improved my ability to design and route this board, so the "CON_PICO_40W_VER_C" used in this revision is a copy of the purple clone board. Sometimes you just need to [reverse-engineer the reverse-engineers](https://youtu.be/FVEQJNRmfDQ?t=431).
-
-The boot select switch, Schottky diode, and 12MHz crystal in my design differ from the ones in the original since I could not find them in stock, but they should be plug-and-play substitutes.
-
-For those of you without KiCad or that just want to take a quick look at the schematic, [here](https://github.com/sabogalc/project-piCo/blob/main/Pico%20C/RPI-PICO-R3a-PUBLIC.pdf) is a link to a PDF copy of the schematic.
-
-Below is a 3D render of my board. This version 3 board is much better than the original, but it is still not quite up to par with the real Pico. Namely, my board does not use as many power planes as the original version (I have one plane for 3.3V and another for GND). Also my USB D+ and D- traces aren't signal paired, but I honestly think they're close enough to where there will be no issues in real-world use cases.
-
-![image](https://github.com/sabogalc/project-piCo/assets/53708281/e1c1a218-cc8b-47e4-8b84-a7cff7ebbea9)
-
-Compared to [version 2](https://github.com/sabogalc/project-piCo/tree/e2333728981e60bb3f34c05a658cf739d1d45163), version 3 has improvements in silkscreen labeling of the pins, the LED, and the USB connector. It also has a 3.3V copper pour on the top layer of the board, which improves the 3.3V routing tremendously. Further improvements could be made in having more power plane pours, but this version should be relatively solid.
-
-As before, I would happily accept pull requests to improve this design. My main grievances with this board are as follows:
-- Better routing for the power rails (e.g. more pours rather than tracks)
-- Finnicky routing needed in some areas (e.g. frequent jumps between board layers to avoid overlaps)
-- Optimizing of component placement to be able to have more pins with silkscreen numbers next to them
-
-I would also be interested in replacing R9 with a LM4040 shunt voltage reference. For now, I wanted a board that had all of the same components as a real Pico so that I could just swap them over, but adding the voltage reference would help make my design an improvement over the original.
-
-Note - I have now included a file called `RPI-PICO-R3a-PUBLIC - Official.kicad_pcb`. This is as close to the original Cadence Allegro design file that I could get imported into KiCad. I first converted the Allegro board into an Altium one, and then I converted the Altium board into KiCad.
-![image](https://github.com/sabogalc/project-piCo/assets/53708281/2ef8d706-aa4e-4265-992c-f2f538ea8131)
-![image](https://github.com/sabogalc/project-piCo/assets/53708281/453bdc88-b8c0-4084-bf2b-c5cee0fe55d0)
+> The USB-C version of the Pico WH board, a much closer recreation of the original board.
+![image](https://github.com/user-attachments/assets/429d3ffc-f5d3-4d9b-a8b5-73fd3a04eb2a)
