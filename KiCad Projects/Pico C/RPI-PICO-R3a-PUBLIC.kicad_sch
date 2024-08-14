@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "project piCo")
-		(date "2024-01-25")
-		(rev "1")
+		(date "2024-08-05")
+		(rev "4")
 		(company "Carlos Sabogal")
 	)
 	(lib_symbols
@@ -794,6 +794,213 @@
 						)
 					)
 					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3908,163 +4115,6 @@
 				)
 			)
 		)
-		(symbol "Pico_C:SM03B-SRSS-TB_LF__SN_"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SM03B-SRSS-TB"
-				(at -5.08 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Pico_C:JST_SM03B-SRSS-TB_LF__SN_"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SM03B-SRSS-TB_LF__SN__0_0"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Pico_C:W25Q16JVUXIQ"
 			(pin_names
 				(offset 1.016)
@@ -4294,22 +4344,22 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DIP_x02"
+		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x02"
-				(at 0 -3.81 0)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4334,7 +4384,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "Description" "Single Pole Single Throw (SPST) switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4343,7 +4393,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dip switch"
+			(property "ki_keywords" "switch lever"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4352,16 +4402,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW?DIP?x2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x02_0_0"
+			(symbol "SW_SPST_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -4373,32 +4414,9 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
+						(xy -1.524 0.254) (xy 1.524 1.778)
 					)
 					(stroke
 						(width 0)
@@ -4419,36 +4437,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "SW_DIP_x02_0_1"
-				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x02_1_1"
+			(symbol "SW_SPST_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4464,9 +4458,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4474,42 +4468,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5013,12 +4971,6 @@
 		(uuid "480e63ef-fc21-487b-83c8-e3f544785e45")
 	)
 	(junction
-		(at 135.89 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48a4e66f-3592-493f-8b7c-f40f9c99ea9e")
-	)
-	(junction
 		(at 226.06 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5037,7 +4989,7 @@
 		(uuid "5e0ccfdc-8507-4a5d-ba65-3e7df22cf8cc")
 	)
 	(junction
-		(at 256.54 140.97)
+		(at 256.54 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "648241bc-4f3e-4757-84f3-bc0fd441106c")
@@ -5055,10 +5007,10 @@
 		(uuid "68a5ae40-5f9b-4297-9042-2615174c09e7")
 	)
 	(junction
-		(at 256.54 138.43)
+		(at 135.89 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68c9fbc4-0dcb-4be6-9f4b-1f3a6b475353")
+		(uuid "69b40617-00db-4129-977e-28d9f74ba2a8")
 	)
 	(junction
 		(at 142.24 152.4)
@@ -5139,12 +5091,6 @@
 		(uuid "c8adbf53-fecb-44e1-aec4-1f29a75361ae")
 	)
 	(junction
-		(at 135.89 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9ae964b-f3e2-4086-ad72-91d8eff156be")
-	)
-	(junction
 		(at 31.75 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5193,12 +5139,6 @@
 		(uuid "f82c7e20-93a9-479f-a9d5-75945bc06ebb")
 	)
 	(junction
-		(at 161.29 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fba7d9c3-a212-466e-ab70-0466fd3eac8f")
-	)
-	(junction
 		(at 191.77 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5235,6 +5175,16 @@
 			(type default)
 		)
 		(uuid "018d1bdf-b61a-4aa3-a77e-4510c57ed5de")
+	)
+	(wire
+		(pts
+			(xy 254 156.21) (xy 261.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021c9e04-de34-4262-89b5-1c6f6d4ae44f")
 	)
 	(wire
 		(pts
@@ -5428,23 +5378,13 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 140.97) (xy 260.35 140.97)
+			(xy 256.54 138.43) (xy 265.43 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ef2c9f9-850c-40d7-a280-329a0914c225")
-	)
-	(wire
-		(pts
-			(xy 140.97 91.44) (xy 135.89 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20345562-8ef9-4839-b955-7b041411ea4a")
 	)
 	(wire
 		(pts
@@ -5708,7 +5648,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 133.35) (xy 256.54 133.35)
+			(xy 261.62 152.4) (xy 259.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e9014d-6f6a-4ec6-9ae0-9a12d8d8b96c")
+	)
+	(wire
+		(pts
+			(xy 260.35 130.81) (xy 256.54 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5788,7 +5738,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 88.9) (xy 161.29 91.44)
+			(xy 161.29 88.9) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5808,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 140.97) (xy 256.54 144.145)
+			(xy 256.54 138.43) (xy 256.54 141.605)
 		)
 		(stroke
 			(width 0)
@@ -5885,16 +5835,6 @@
 			(type default)
 		)
 		(uuid "4b7a89e7-19b4-4e56-b37e-49a7d6238049")
-	)
-	(wire
-		(pts
-			(xy 156.21 91.44) (xy 161.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d37a71f-442f-4e25-a8fb-a99a21f71e43")
 	)
 	(wire
 		(pts
@@ -6118,16 +6058,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 135.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a5a9cb-7561-45d7-a413-eff602d8477e")
-	)
-	(wire
-		(pts
 			(xy 224.79 153.67) (xy 224.79 157.48)
 		)
 		(stroke
@@ -6155,16 +6085,6 @@
 			(type default)
 		)
 		(uuid "65199418-a5c4-47d2-ad74-de645ceb1897")
-	)
-	(wire
-		(pts
-			(xy 156.21 88.9) (xy 161.29 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c99ace-702c-4021-bcc4-d4613c4bfc22")
 	)
 	(wire
 		(pts
@@ -6265,6 +6185,16 @@
 			(type default)
 		)
 		(uuid "78e52d75-b922-4c27-a568-80e2418f9070")
+	)
+	(wire
+		(pts
+			(xy 261.62 161.29) (xy 259.08 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d970ff-e21e-4d7c-b3c4-27357c301f27")
 	)
 	(wire
 		(pts
@@ -6418,6 +6348,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 88.9) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981f3e48-ff84-4637-9b04-9100a22c2fa3")
+	)
+	(wire
+		(pts
 			(xy 153.67 39.37) (xy 157.48 39.37)
 		)
 		(stroke
@@ -6498,16 +6438,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 161.29 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2aaaacd-929a-43e2-9027-4c2130fb8b17")
-	)
-	(wire
-		(pts
 			(xy 218.44 153.67) (xy 224.79 153.67)
 		)
 		(stroke
@@ -6528,7 +6458,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 135.89) (xy 260.35 135.89)
+			(xy 255.27 133.35) (xy 260.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6628,16 +6558,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 138.43) (xy 256.54 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2373e6d-57d3-4357-9dfc-ea7dad8d000f")
-	)
-	(wire
-		(pts
 			(xy 198.12 109.22) (xy 205.74 109.22)
 		)
 		(stroke
@@ -6678,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 135.89 91.44)
+			(xy 135.89 88.9) (xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6708,7 +6628,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 133.35) (xy 256.54 138.43)
+			(xy 256.54 130.81) (xy 256.54 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6765,6 +6685,26 @@
 			(type default)
 		)
 		(uuid "bb8aafa8-7a37-4c75-b1f3-c4d42241f513")
+	)
+	(wire
+		(pts
+			(xy 255.27 128.27) (xy 260.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb6a09c-dbe7-4354-b676-aff9eaac350c")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.9) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7747ca-39c1-4ce6-b5fb-9e257a0098c0")
 	)
 	(wire
 		(pts
@@ -6858,16 +6798,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 130.81) (xy 260.35 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3bfbf6-5a8f-47fa-b81f-98693d5a7533")
-	)
-	(wire
-		(pts
 			(xy 261.62 29.845) (xy 261.62 34.29)
 		)
 		(stroke
@@ -6925,16 +6855,6 @@
 			(type default)
 		)
 		(uuid "d16ac737-d4cb-470e-8f5a-19f6593a6a4c")
-	)
-	(wire
-		(pts
-			(xy 135.89 88.9) (xy 140.97 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d194e61f-9b28-46e5-85b9-5126b02687c4")
 	)
 	(wire
 		(pts
@@ -7035,16 +6955,6 @@
 			(type default)
 		)
 		(uuid "e15677b9-715b-4c39-b400-b9818e7cf6fc")
-	)
-	(wire
-		(pts
-			(xy 256.54 138.43) (xy 260.35 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e32ea7e4-8087-4817-b508-43d4bce11f25")
 	)
 	(wire
 		(pts
@@ -7326,7 +7236,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 255.27 130.81 180)
+		(at 255.27 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7336,7 +7246,7 @@
 		)
 		(uuid "032540b9-9ca4-4405-a4ce-aed598632906")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0558 130.81 0)
+			(at 246.0558 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7390,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 255.27 135.89 180)
+		(at 255.27 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7490,7 +7400,7 @@
 		)
 		(uuid "35cb9c93-ff18-43c8-9c13-15b1932624b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.4186 135.89 0)
+			(at 246.4186 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,6 +7533,50 @@
 		(uuid "4f3e0190-45e9-411c-aa55-bccc3e6b6848")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.815 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 259.08 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51db42f0-94f7-48bf-b1fd-439932586272")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.2286 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 259.08 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d92b400-8655-4488-accf-0bb2dc09a458")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.8658 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,6 +8335,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ffbc3e4-9632-4192-85b6-6d0c2ce0f58d")
+		(property "Reference" "TP8"
+			(at 264.922 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 264.922 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 261.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab58281e-39f7-4bfe-a79a-13b23446e290")
+		)
+		(instances
+			(project "RPI-PICO-R3a-PUBLIC"
+				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 142.24 0)
 		(unit 1)
@@ -8580,6 +8599,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 148.59 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20a10c7c-30b3-4345-8145-61e41a4671aa")
+		(property "Reference" "SW1"
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS810 SJK 250 SMTR LFS"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617be081-c6cd-4825-897f-4c972e2a8336")
+		)
+		(pin "2"
+			(uuid "a7d30bd3-e546-4c32-b658-d7aad85287b1")
+		)
+		(instances
+			(project ""
+				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 191.77 151.13 0)
 		(unit 1)
@@ -8606,7 +8693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico_C:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 192.7352 154.94 0)
 			(effects
 				(font
@@ -8782,33 +8869,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x02")
-		(at 148.59 91.44 0)
+		(lib_id "Connector:TestPoint")
+		(at 261.62 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2851d88e-5a4a-4974-9d22-c4bdf0dadd25")
-		(property "Reference" "SW1"
-			(at 148.59 81.28 0)
+		(uuid "2b40bb1f-a99c-44df-991a-e2ad11820550")
+		(property "Reference" "TP7"
+			(at 264.922 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PTS810 SJM 250 SMTR LFSPTS810 SJM 250 SMTR LFS"
-			(at 148.59 83.82 0)
+		(property "Value" "TestPoint"
+			(at 264.922 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Pico_C:SW_SPST_PTS810"
-			(at 148.59 91.44 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 261.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 91.44 0)
+			(at 261.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,8 +8912,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 148.59 91.44 0)
+		(property "Description" ""
+			(at 261.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,21 +8922,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1291d9d1-f9f4-456c-a622-929ce38e4058")
-		)
-		(pin "4"
-			(uuid "2bea309b-ebce-4d15-ac3c-5b7f795d7680")
-		)
-		(pin "2"
-			(uuid "575948a2-d39a-4d11-b035-c9c9d619ce27")
-		)
-		(pin "3"
-			(uuid "de6abdba-7045-4688-b027-d566814f2e47")
+			(uuid "3a8a8347-f2d7-44e1-8a9b-9464ba170514")
 		)
 		(instances
 			(project "RPI-PICO-R3a-PUBLIC"
 				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
-					(reference "SW1")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8947,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pico_C:SON50P250X250X80-11N"
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_2.6x2.6mm_P0.5mm_EP1.3x2.2mm"
 			(at 111.0201 43.0549 0)
 			(effects
 				(font
@@ -9469,7 +9547,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3c6d0180-5b32-4323-a9b6-e9fc8968a32a")
 		(property "Reference" "R4"
 			(at 111.76 93.345 0)
@@ -10013,7 +10091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico_C:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 234.6452 154.94 0)
 			(effects
 				(font
@@ -10488,7 +10566,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6eca095a-ba56-4f0b-bd6b-2acf06c21864")
 		(property "Reference" "R15"
 			(at 207.645 132.715 90)
@@ -11246,7 +11324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico_C:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 154.0002 166.37 0)
 			(effects
 				(font
@@ -11425,44 +11503,44 @@
 		)
 	)
 	(symbol
-		(lib_id "Pico_C:SM03B-SRSS-TB_LF__SN_")
-		(at 270.51 135.89 0)
+		(lib_id "power:GND")
+		(at 254 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ba558fcc-04d5-4662-93c8-81e2c878028c")
-		(property "Reference" "J4"
-			(at 269.24 126.365 0)
+		(fields_autoplaced yes)
+		(uuid "b11e373c-40df-448f-83cd-6bc70727313d")
+		(property "Reference" "#PWR021"
+			(at 247.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 262.255 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pico_C:JST_SM03B-SRSS-TB_LF__SN_"
-			(at 270.51 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 270.51 135.89 0)
+		(property "Value" "GND"
+			(at 250.19 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11471,7 +11549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 135.89 0)
+			(at 254 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11479,25 +11557,13 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2144da1e-3304-4720-8491-66cb59b74a6c")
-		)
-		(pin "S1"
-			(uuid "b4ba5089-7f36-4720-902e-84868f40b347")
-		)
-		(pin "3"
-			(uuid "a94fd72a-4e9c-43f1-bd15-dca7cd982edc")
-		)
 		(pin "1"
-			(uuid "05430c60-d7f7-4c78-91df-bd8b111b307e")
-		)
-		(pin "S2"
-			(uuid "9c3c4326-6b07-4a03-b494-515b02094deb")
+			(uuid "21dc8544-8ae8-4b0a-b0a8-365eab57bf84")
 		)
 		(instances
 			(project "RPI-PICO-R3a-PUBLIC"
 				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
-					(reference "J4")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11529,7 +11595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pico_C:DIOM3616X98N"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 88.9 34.29 0)
 			(effects
 				(font
@@ -11596,7 +11662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pico_C:XTAL_ECS-120-8-33-JGN-TR"
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm"
 			(at 209.55 146.05 0)
 			(effects
 				(font
@@ -11777,8 +11843,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 265.43 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5fafdce-2bce-4a38-95bb-19b716782205")
+		(property "Reference" "J4"
+			(at 267.97 129.8955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM03B-SRSS-TB"
+			(at 267.97 132.4355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "275bafed-4a64-4950-8abe-cdc326acb222")
+		)
+		(pin "MP"
+			(uuid "626f3711-79b8-44f1-a1ba-05285a6a5bd2")
+		)
+		(pin "2"
+			(uuid "3e6f7345-7028-4eab-b56f-5ac7fb2ea0e3")
+		)
+		(pin "3"
+			(uuid "8043f0c1-0df0-49ff-9c7b-836630244989")
+		)
+		(instances
+			(project "RPI-PICO-R3a-PUBLIC"
+				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 256.54 144.145 0)
+		(at 256.54 141.605 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11787,7 +11929,7 @@
 		(fields_autoplaced yes)
 		(uuid "c63e3017-286e-4da4-872b-599ab074b3ae")
 		(property "Reference" "#PWR02"
-			(at 256.54 150.495 0)
+			(at 256.54 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11796,7 +11938,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 148.59 0)
+			(at 256.54 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11804,7 +11946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 144.145 0)
+			(at 256.54 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,7 +11955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 144.145 0)
+			(at 256.54 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,7 +11964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 144.145 0)
+			(at 256.54 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,7 +12211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pico_C:SOT50P160X90-3N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 129.54 154.94 0)
 			(effects
 				(font
@@ -12078,7 +12220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG1012T.pdf"
 			(at 132.08 149.86 0)
 			(effects
 				(font
@@ -12898,6 +13040,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f90f71b5-df61-40b2-88a9-03bb8db2c51a")
+		(property "Reference" "TP9"
+			(at 264.922 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 264.922 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 261.62 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3fee480-83ed-425e-a565-80d373f9dde9")
+		)
+		(instances
+			(project "RPI-PICO-R3a-PUBLIC"
+				(path "/f8a1033e-7d4e-4018-9b4c-1da5b150b31c"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.035 171.45 0)
 		(unit 1)
@@ -13054,7 +13261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pico_C:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 199.0852 118.11 0)
 			(effects
 				(font
