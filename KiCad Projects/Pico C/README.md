@@ -38,26 +38,12 @@ I could not find the original boot select switch, Schottky diode, or 12MHz cryst
 
 For those of you without KiCad or that just want to take a quick look at the schematic, a [PDF version](https://github.com/sabogalc/project-piCo/blob/main/KiCad%20Projects/Pico%20C/RPI-PICO-R3a-PUBLIC.pdf) is available.
 
-### Version 3 Improvements
+### Version 4 - A 1:1 recreation
 
-Compred to [version 2](https://github.com/sabogalc/project-piCo/tree/e2333728981e60bb3f34c05a658cf739d1d45163), the third version of the board has improvements in:
+[Version 3](https://github.com/sabogalc/project-piCo/tree/0116e01858a51d29eb83f16cde15d637a825e509) of this board improved on [version 2](https://github.com/sabogalc/project-piCo/tree/e2333728981e60bb3f34c05a658cf739d1d45163) in regards to copper pours, routing, and silkscreen labeling. However, versions 1-3 were all routed from scratch by myself. As seen below in the `Official Files` section or in the [piCo W folder](https://github.com/sabogalc/project-piCo/tree/main/KiCad%20Projects/Pico%20WH%20-%20No%20License), I later learned how to convert a Cadence Allegro board into a KiCad one, and this allows me to make a 1:1 PCB when reverse-engineering. Version 4 is this 1:1 render, and it should theoretically be the last version of this board.
+![Version 4 Render](https://github.com/user-attachments/assets/22a4bc11-2788-4109-a861-58439af590a5)
 
-- Enhanced silkscreen labeling for pins, LED, and USB connector.
-- Improved 3.3V routing with a copper pour on the top layer.
-- Better overall design, though this could be improved with more power planes and closer attention to signal pairing.
-
-![Version 3 Render](https://github.com/sabogalc/project-piCo/assets/53708281/e1c1a218-cc8b-47e4-8b84-a7cff7ebbea9)
-
-### Future Enhancements
-
-Potential improvements include:
-
-- Optimizing power rail routing (e.g., more pours vs. tracks).
-- Reducing complex routing and layer jumps.
-- Enhancing component placement for better silkscreen numbering.
-- Moving all components to the top of the board.
-
-While I have thought about making design improvements to the ADC or adding a reset switch, the overall purpose of this project is to be 1:1 with the layout and parts of an original Pico. However, I would happily accept pull requests to improve the current design. 
+When it comes to improving the Pico, I have thought about making design improvements to the ADC or adding a reset switch. However, the overall purpose of this project is to be 1:1 with the layout and parts of an original Pico, though if anyone finds any room for improvement I would be happy to make any fixes (e.g. the grid on the schematic is not standard and could use correction).
 
 _**DISCLAIMER**_
 
